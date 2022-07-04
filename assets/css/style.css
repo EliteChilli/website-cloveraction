@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
