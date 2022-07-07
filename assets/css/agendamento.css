@@ -3,7 +3,7 @@
     /* Banner inicial */
     .banner-agendamento {
         box-sizing: border-box;
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/banner.png);
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/agendamento.png);
         background-position: center;
         background-repeat: none;
         background-size: cover;
@@ -84,8 +84,8 @@
         font-weight: 400;
     }
 
-    #agendamento .more-form input[type=text]{
-        height: 200px;
+    #agendamento-form textarea{
+        width: 100%;
     }
 
     #agendamento .button input[type=submit]{
@@ -95,6 +95,7 @@
         height: 3rem;
         max-width: 16rem;
         border-radius: 5px;
+        cursor: pointer;
     }
 }
 
